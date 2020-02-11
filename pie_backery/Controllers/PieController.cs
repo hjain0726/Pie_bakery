@@ -25,7 +25,17 @@ namespace pie_backery.Controllers
             piesListViewModel.Pies = _pieRepository.AllPies;
 
             piesListViewModel.CurrentCategory = "Cheese cakes";
+         
             return View(piesListViewModel);
+        }
+
+        public IActionResult longDescrip(Pie pieObj)
+        {
+            longDescripViewModel longDescrip = new longDescripViewModel();
+            longDescrip.pie=pieObj;
+
+
+            return View(longDescrip);
         }
     }
 }
