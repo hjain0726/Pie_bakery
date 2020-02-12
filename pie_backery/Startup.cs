@@ -26,8 +26,8 @@ namespace pie_backery
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddScoped<ICategoryRepository, MockCategoryRepository>();
-            services.AddScoped<IPieRepository, MockPieRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IPieRepository, PieRepository>();
 
            services.AddDbContext<AppDbContext>(options=>
           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));

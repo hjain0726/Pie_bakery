@@ -29,13 +29,12 @@ namespace pie_backery.Controllers
             return View(piesListViewModel);
         }
 
-        public IActionResult longDescrip(Pie pieObj)
+        public IActionResult longDescrip(string id)
         {
-            longDescripViewModel longDescrip = new longDescripViewModel();
-            longDescrip.pie=pieObj;
-
-
-            return View(longDescrip);
+            //longDescripViewModel longDescrip = new longDescripViewModel();
+            //longDescrip.pie=pieObj;
+            //return View(longDescrip);
+            return View(_pieRepository.GetPieById(id));
         }
     }
 }
