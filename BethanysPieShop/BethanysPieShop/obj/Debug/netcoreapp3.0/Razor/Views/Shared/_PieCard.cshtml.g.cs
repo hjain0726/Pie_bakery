@@ -26,8 +26,15 @@ using BethanysPieShop.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\INT156\source\repos\BethanysPieShop\BethanysPieShop\Views\_ViewImports.cshtml"
+using BethanysPieShop.Areas.Identity.Pages.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8c068e5ccca427cfe5dffd9acce3c2b7570ca18", @"/Views/Shared/_PieCard.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d5bc892ed7a70745a15da4006f10ab34c9177b07", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"12fd2ca252183803fadc23a98f18c19b2a4a75cf", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__PieCard : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Pie>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Pie", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -80,7 +87,7 @@ WriteAttributeValue("", 113, Model.ImageThumbnailUrl, 113, 24, false);
 #line hidden
 #nullable disable
             WriteLiteral("</h3>\r\n                <h3>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8c068e5ccca427cfe5dffd9acce3c2b7570ca185696", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8c068e5ccca427cfe5dffd9acce3c2b7570ca185916", async() => {
 #nullable restore
 #line 10 "C:\Users\INT156\source\repos\BethanysPieShop\BethanysPieShop\Views\Shared\_PieCard.cshtml"
                                               Write(Model.Name);
@@ -127,7 +134,7 @@ WriteAttributeValue("", 113, Model.ImageThumbnailUrl, 113, 24, false);
 #line hidden
 #nullable disable
             WriteLiteral("</p>\r\n            </div>\r\n            <div class=\"addToCart\">\r\n                <p class=\"button\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8c068e5ccca427cfe5dffd9acce3c2b7570ca188670", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8c068e5ccca427cfe5dffd9acce3c2b7570ca188890", async() => {
                 WriteLiteral("Add to cart");
             }
             );
